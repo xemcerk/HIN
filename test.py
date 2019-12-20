@@ -8,8 +8,9 @@ if __name__ == "__main__":
     author_count = 246678
     experiment_times = 1
     percent = 0.05
-    file = open(".../output_file_path/...")
-    file_2 = open(".../label 2/googlescholar.8area.author.label.txt")
+    file = open("./output/embedding.txt")
+    file_1 = open("./label_2/googlescholar.8area.venue.label.txt")
+    file_2 = open("./label_2/googlescholar.8area.author.label.txt")
     check_venue = {}
     check_author = {}
     for line in file_1:
